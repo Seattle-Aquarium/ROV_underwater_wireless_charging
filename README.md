@@ -1,4 +1,4 @@
-# ROV underwater wireless charging system
+# ROV underwater wireless charging 
 
 This repository provides a location for documentation and issues regarding the prototype deployment of a [Blue Robotics](https://bluerobotics.com/) (BR) and [Wibotic](https://www.wibotic.com/) [Underwater Wireless Charging System](https://bluerobotics.com/store/comm-control-power/powersupplies-batteries/underwater-wireless-charging-system/) at the Seattle Aquarium's Pier 59.
 
