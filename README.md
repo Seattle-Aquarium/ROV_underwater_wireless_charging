@@ -30,7 +30,7 @@ This customized deployment was facilitated by University of Washington's [Applie
     
 3. Provide a platform that will enable further development and testing of autonomous ROV flight control software. 
 
-This repository provides a location for documentation and issues regarding the prototype deployment of a [Blue Robotics](https://bluerobotics.com/) (BR) and [Wibotic](https://www.wibotic.com/) [Underwater Wireless Charging System](https://bluerobotics.com/store/comm-control-power/powersupplies-batteries/underwater-wireless-charging-system/) at the Seattle Aquarium's Pier 59.
+This repository provides a location for documentation and issues regarding UWCS deployed 1.5m above the seafloor along a Pier 59 pier piling at the Seattle Aquarium. 
 
 ## Low-Light USB Camera 
 
