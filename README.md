@@ -38,7 +38,7 @@ The prototype UWCL deployment also includes a Blue Robotics [Low-Light HD USB Ca
 
 - 24/7 video stream
 - Control over tilt and four BR lights from within Cockpit Lite
-- Custom recording and control via BlueOS Extension _Timelapse Recording_
+- Custom recording and control via BlueOS Extension _blueos-timelapse-controller_
 
 <div align="center">
   <img width="400" height="190" alt="tilt_GIF" src="https://github.com/user-attachments/assets/1111cc8e-037c-41e8-b76d-a1ab764c0d81" />
