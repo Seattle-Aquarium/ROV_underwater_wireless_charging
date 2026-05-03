@@ -24,13 +24,13 @@ This customized deployment was facilitated by University of Washington's [Applie
 
 ## Objectives
 
-1. Demonstrate underwater wireless ROV battery charging and monitor the system over time to evaluate any issues that may develop over time.
+1. Demonstrate underwater wireless ROV battery charging and monitor the system to evaluate any issues that may develop over time.
    
-2. Enable the Seattle Aquarium's Conservation Engagement and Learning (CEaL) department and Vistor Engagement, School and Public Programs, Community Engagement, and Volunteer Engagement teams to develop novel outreach and engagement experiences centered around the UWCL, the associated ROV, and the UWCL's Low-Light camera. 
+2. Enable the Seattle Aquarium's Conservation Engagement and Learning (CEaL) department and constituent Vistor Engagement, School and Public Programs, Community Engagement, and Volunteer Engagement teams to develop novel outreach and engagement experiences centered around the UWCL, the associated ROV, and the UWCL's Low-Light camera. 
     
 3. Provide a platform that will enable further development and testing of autonomous ROV flight control software. 
 
-This repository provides a location for documentation and issues regarding UWCS deployed 1.5m above the seafloor along a Pier 59 pier piling at the Seattle Aquarium. 
+This repository provides a location for documentation and issues regarding the UWCS deployed 1.5m above the seafloor along a Pier 59 piling at the Seattle Aquarium. 
 
 ## Low-Light USB Camera 
 
