@@ -1,4 +1,4 @@
-- ## ROV control system overview
+## ROV control system overview
 
 Our BlueROV2 uses several pieces of hardware and software that work together. 
 You do not need to understand all of the engineering details, but it would be helpful to have a basic understanding of the system and its constituent hardware (ROV laptop, Raspberry Pi, Navigator) and software (Cockpit, BlueOS, ArduSub).
