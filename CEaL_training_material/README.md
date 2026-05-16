@@ -6,6 +6,7 @@ This folder contains links, files, and resources necessary for Conservation Enga
 ROV pilot training will be facilitated via completing some basic reading and homework ahead of time: 
 
 - For an overview of the system you will operate -- please review [ROV control system overview](https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/ROV_control_system_overview.md).
+- To find out information about the ROV's constituent components -- please review [ROV Hardware](https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/hardware.md)
 - You will be responsible for completing numerous operations associated with the ROV -- please review [ROV Protocols](https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/ROV_protocols.md).
 - Blue Robotics (BR) has excellent documentation and user guides. 
 Learn more about Blue Robotics [here](https://bluerobotics.com/), the BlueROV2 [here](https://bluerobotics.com/store/rov/bluerov2/), and see basic stats about the BlueROV2 [here](https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/BlueROV2_datasheet.pdf).
