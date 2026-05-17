@@ -2,8 +2,10 @@
 
 ### Overview 
 This folder contains links, files, and resources necessary for Conservation Engagement and Learning (CEaL) personnel and other Seattle Aquarium staff to prepare for ROV flight operations off Pier 59.
+This is start for us as an organization to think about how best to train staff to conduct basic ROV flight operations. 
+We intend to collaborate and communicate among CEaL, IT/AV, Dive Program, and CPP to edit, refine, and expand these documents and protocols to optimize training efficacy.
 
-ROV pilot training will be facilitated via completing some basic reading and homework ahead of time: 
+ROV _Pilot_ and _Copilot_ training will be facilitated via completing some basic reading ahead of time: 
 
 - For an overview of the system you will operate -- please review [ROV control system overview](https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/ROV_control_system_overview.md).
 - To find out information about the ROV's constituent components -- please review [ROV Hardware](https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/hardware.md)
