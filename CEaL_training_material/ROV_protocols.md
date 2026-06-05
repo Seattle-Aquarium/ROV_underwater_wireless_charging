@@ -7,16 +7,16 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 
 ## Table of Contents
 
-- [Assessing topside and underwater conditions](#assessing-topside-and-underwater-conditions)
-- [Set up topside flight area](#set-up-topside-flight-area)
-- [Power ROV](#power-rov)
-- [Stage for launch at the dive ramp](#stage-for-launch-at-the-dive-ramp)
-- [Connect to the ROV](#connect-to-the-rov)
-- [Deploy and fly the ROV](#deploy-and-fly-the-rov)
-- [Tether management](#tether-management)
-- [Docking, undocking, and wirelessly charging the ROV](#docking-undocking-and-wirelessly-charging-the-rov)
-- [Retrieve ROV](#retrieve-rov)
-- [Post-flight care](#post-flight-care)
+- [1. Assessing topside and underwater conditions](#assessing-topside-and-underwater-conditions)
+- [2. Set up topside flight area](#set-up-topside-flight-area)
+- [3. Power ROV](#power-rov)
+- [4. Stage for launch at the dive ramp](#stage-for-launch-at-the-dive-ramp)
+- [5. Connect to the ROV](#connect-to-the-rov)
+- [6. Deploy and fly the ROV](#deploy-and-fly-the-rov)
+- [7. Tether management](#tether-management)
+- [8. Docking, undocking, and wirelessly charging the ROV](#docking-undocking-and-wirelessly-charging-the-rov)
+- [9. Retrieve ROV](#retrieve-rov)
+- [10. Post-flight care](#post-flight-care)
 - [Miscellaneous](#miscellaneous)
 - [Troubleshooting](#troubleshooting)
   - [Camera stream issues](#camera-stream-issues)
@@ -24,19 +24,19 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
   - [Controller not connecting to Cockpit](#controller-not-connecting-to-cockpit)
 
 
-## Assessing topside and underwater conditions
+## 1. Assessing topside and underwater conditions
 
 -	**Check weather, tides, and sea surface state before initiating flight protocol.** There are a variety of ways to obtain information about the tide, wind. Two options include:
-  -	Tides app on IOS
-  -	WindFinder app on IOS
+	-	Tides app on IOS
+	-	WindFinder app on IOS
 -	**Do not operate on a tide lower than 1 foot** (the ramp will be too steep / can’t reach the sea surface)
 -	**Do not operate with winds greater than 15 knots** if out of the north.
-  -	Winds out of the south are largely blocked by Pier 59, though you may have water movement / chop.
+	-	Winds out of the south are largely blocked by Pier 59, though you may have water movement / chop.
 -	Check water conditions via docking station camera for visibility at-depth
-  -	http://10.59.165.221/extensionv2/cockpitlite/#/
-  -	**Do not fly if you have less than 1m of visibility**
+	-	http://10.59.165.221/extensionv2/cockpitlite/#/
+	-	**Do not fly if you have less than 1m of visibility**
 
-## Set up topside flight area
+## 2. Set up topside flight area
 
 -	(Optional) Set up a pop-up tent to alleviate rain / bright sun or glare off the water. 
 -	Unlock ramp power box lever using AB1 key and power the ramp via moving the switch up to the “on” position. 
@@ -47,7 +47,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 -	Plug in the ROV laptop to the power strip within the cart.
 -	Turn on and sign into the laptop, verify TV duplicating computer screen.
 
-## Power ROV
+## 3. Power ROV
 
 - Check the status of the ROV battery with the voltage reader by connecting the white terminals.
 - Remove the vent plug and **set it somewhere safe.**
@@ -66,7 +66,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 -	Care is required when re-connecting the end cap -– ensure that all cables are out of the way and that the end cap can seat properly, then match the rectangular notch (located about a cm up from the bottom) to fit the groove in the acrylic tube. Pause if you feel resistance when attempting to replace the end cap.
 -	**Reattach and tighten the vent plug.**
 
-## Stage for launch at the dive ramp
+## 4. Stage for launch at the dive ramp
 
 -	**Double-check that the tether is securely clipped to ROV** (i.e., that the tether is plugged in and that its strain relief clip is attached –- should you have to manually pull in the ROV mid-flight, this clip will better protect the tether from damage). 
 -	You require x2 people familiar with ramp operations –- the *Pilot* and the *Copilot* -– both personnel are **required to wear a Personal Floatation Device** (PFD; found on the inside door of the closet adjacent to the dive ramp) when walking on the ramp.  
@@ -75,7 +75,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 -	The *Copilot* hands the tether spool to the *Pilot* from the ramp, where, **upon handoff, the *Pilot* will verify their grip on the spool via a verbal “Got it!” before the *Copilot* releases their grip.**
 -	The *Pilot* sets the tether on the ground to the left of the cart.
 
-## Connect to the ROV
+## 5. Connect to the ROV
 
 -	Connect the yellow cable to the FXTI box and tether spool (align the bump along the interior rim of the plug with the white line on the spool connector).
 -	**Ensure the yellow cable is routed such that does not impede the tether**, i.e., ensure the tether can freely unspool.  
@@ -94,7 +94,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
   -	Cycle lights up and down.
 -	The vehicle is now ready to deploy.
 
-## Deploy and fly the ROV
+## 6. Deploy and fly the ROV
 
 -	*Pilot* lowers ramp with *Copilot* and ROV until just above water level.
 -	*Copilot* makes a final check to ensure vent plugs are in place and tight.
@@ -110,7 +110,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
   -	It is not recommended to run the thrusters at 100% as not only does the ROV become difficult to control but it may fry the electronics if used for extended periods.
 -	(Optional) Operate the x2 downward and x2 forward lights as desired. 
 
-## Tether management
+## 7. Tether management
 
 - The *Copilot* manages the tether while the *Pilot* flies; they should let out and pull in slack as needed.
 - **Communication is key!** Communicate so the *Copilot* understands:
@@ -134,20 +134,19 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 - Sun glare shining down into the water can obscure the yellow tether.
 - You can always ascend the vehicle to the surface to visually locate it.
 
-## Docking, undocking, and wirelessly charging the ROV
+## 8. Docking, undocking, and wirelessly charging the ROV
 
 -	Align the ROV in front of the docking station. 
 -	Place the target cross in the center of Cockpit. 
 -	Gently motor forward such that the ROV's "nose" enters the docking station port, then up the gain to at least 70% and pilot forward to ensure a full connection.
--	Release the ROV via switching to Manual flight mode; observe the ROV affixed in place, i.e., it should jostle extensively but display a clear hold to the station (i.e., doesn’t float up/away). 
-
+-	Release the ROV via switching to Manual flight mode; observe the ROV affixed in place, i.e., it should jostle extensively but display a clear hold to the station (i.e., doesn’t float up/away).
 - On the ROV laptop, navigate to the WiBotic dashboard web interface at `http://10.59.165.222/#/overview`.
 - Turn the transmit toggle to **On**.
   - You should observe charging via icons of the Transmit and Receive Coils 
 - Upon completing the charge, or upon wanting to disembark the station, **Arm** the ROV (if **Disarmed**), set gain to `70%`, and gently but firmly reverse the ROV.
-- Return gain to `20-40%` and resume normal ROV flight operations. 
+- Return gain to `20-40%` and resume normal ROV flight operations.
 
-## Retrieve ROV
+## 9. Retrieve ROV
 
 - *Pilot* has the ROV at the surface and is ready to land.
 - *Copilot* dons PFD.
@@ -166,7 +165,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 - *Pilot* hands tether spool over to *Copilot* (again, verifying a grip on the spool before letting go).
 - *Pilot* dons PFD and joins the *Copilot* on ramp before retunging with ROV and spool.
 
-## Post-flight care
+## 10. Post-flight care
 
 - Take the ROV and tether spool to the back of Pier 59 and spray thoroughly with freshwater from the hose.
   - Focus particularly on:
@@ -178,6 +177,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 - Reattach the battery enclosure panel **without** the battery inside.
 - Replace vent plug.
 - Stow ROV and tether in the cart and wheel to old PCR habitats in shark holding.
+	- Avoid getting the cart's power strip and TV power cable wet when stowing the ROV.
 
 ## Miscellaneous
 
