@@ -81,7 +81,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 -	**Ensure the yellow cable is routed such that does not impede the tether**, i.e., ensure the tether can freely unspool.  
 -	Connect the USB-A cable from the FXTI box to the flight laptop’s USB-A port.
 -	Connect the Xbox controller to another flight laptop USB-A port.
--	Access BlueOS by opening Chrome and proceeding to `192.168.2` (type this directly into the seach bar).
+-	Access BlueOS by opening Chrome and proceeding to `192.168.2.2` (type this directly into the seach bar).
   -	Verify BlueOS connection.
     - If the page cannot open, wait a moment, then close the tab and try unplugging and replugging the FXTI USB-A wire.
   - Check ROV voltage and heartbeat.
