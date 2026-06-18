@@ -38,9 +38,9 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 
 ## 2. Set up topside flight area
 
--	(Optional) Set up a pop-up tent to alleviate rain / bright sun or glare off the water. 
--	Unlock ramp power box lever using AB1 key and power the ramp via moving the switch up to the “on” position. 
--	Test both directions of the ramp to verify functioning -- descend the ramp slightly, then ascend the ramp slightly. 
+-	(Optional) Set up a pop-up tent to alleviate rain / bright sun or glare off the water.
+-	Unlock ramp power box lever using AB1 key and power the ramp via moving the switch up to the “on” position.
+-	Test both directions of the ramp to verify functioning -- descend the ramp slightly, then ascend the ramp slightly.
 -	Move cart to the dive ramp, positioned such that the cart is just to the right of the end of the ramp.
 -	Plug in the cart to the 120V power outlet.
 -	Plug in the HDMI cord to the TV and ROV laptop.
@@ -50,7 +50,15 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 ## 3. Power ROV
 
 - Check the status of the ROV battery with the voltage reader by connecting the white terminals.
+  - Should you need to recharge the battery on land, then plug in the yellow connectors.
+  - Press the circle button between up and down arrows on the right side of the device, then press again over the 'Start' option.
+  - Monitor the battery's percentage as it charges.
+  - Once charged, press the circle button, then select the 'Stop' option.
+  - You may then unplug the white and yellow connectors.
+- Pull out the battery enclosure lock (white cord with black ring poking out from top of battery enclosure).
 - Remove the vent plug and **set it somewhere safe.**
+- Remove the blue vent plug from battery enclosure and **set it somewhere safe.**
+  - Note: there are two vent plugs on the ROV--make sure to remove only the lower one for the battery enclosure and avoid the upper one for the electronics enclosure.
 - Use the small Blue Robotics enclosure key to gently open the ROV battery enclosure.
   - Find an opening groove between the end cap and battery enclosure, insert the middle protrusion of the key, then twist the key.
 - Pull the rear end cap off.
@@ -68,8 +76,8 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 
 ## 4. Stage for launch at the dive ramp
 
--	**Double-check that the tether is securely clipped to ROV** (i.e., that the tether is plugged in and that its strain relief clip is attached –- should you have to manually pull in the ROV mid-flight, this clip will better protect the tether from damage). 
--	You require x2 people familiar with ramp operations –- the *Pilot* and the *Copilot* -– both personnel are **required to wear a Personal Floatation Device** (PFD; found on the inside door of the closet adjacent to the dive ramp) when walking on the ramp.  
+-	**Double-check that the tether is securely clipped to ROV** (i.e., that the tether is plugged in and that its strain relief clip is attached –- should you have to manually pull in the ROV mid-flight, this clip will better protect the tether from damage).
+-	You require x2 people familiar with ramp operations –- the *Pilot* and the *Copilot* -– both personnel are **required to wear a Personal Floatation Device** (PFD; found on the inside door of the closet adjacent to the dive ramp) when walking on the ramp.
 -	With the *Pilot* carrying the ROV and *Copilot* carrying the tether spool both walk out and place their items at the end of the ramp.
 -	The *Copilot* stays at the end of the ramp; the *Pilot* returns to the cart, closing but not locking the ramp (keep the unlocked lock threaded in its spot so as not to lose it).
 -	The *Copilot* hands the tether spool to the *Pilot* from the ramp, where, **upon handoff, the *Pilot* will verify their grip on the spool via a verbal “Got it!” before the *Copilot* releases their grip.**
@@ -77,9 +85,10 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 
 ## 5. Connect to the ROV
 
--	Connect the yellow cable to the FXTI box and tether spool (align the bump along the interior rim of the plug with the white line on the spool connector).
--	**Ensure the yellow cable is routed such that does not impede the tether**, i.e., ensure the tether can freely unspool.  
--	Connect the USB-A cable from the FXTI box to the flight laptop’s USB-A port.
+- Connect the yellow cable to the FXTI box and tether spool (align the bump along the interior rim of the plug with the white line on the spool connector/align the white lock with an arrow to the white line on the spool connector).
+  - You must connect the cable and rotate the top piece into the "lock" position, otherwise the cable will eject.
+-	**Ensure the yellow cable is routed such that does not impede the tether**, i.e., ensure the tether can freely unspool.
+-	Connect the ethernet-USB cable to the FXTI box and to the flight laptop’s USB port.
 -	Connect the Xbox controller to another flight laptop USB-A port.
 -	Access BlueOS by opening Chrome and proceeding to `192.168.2.2` (type this directly into the seach bar).
   -	Verify BlueOS connection.
@@ -89,7 +98,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 -	Open ROV laptop desktop application "Cockpit".
   -	Verify camera feed is visible on-screen.
   -	Arm vehicle.
-  -	Verify control: check gain, adjust to `30%`. 
+  -	Verify control: check gain, adjust to `30%`.
   -	Briefly activate thrusters.
   -	Cycle lights up and down.
 -	The vehicle is now ready to deploy.
@@ -99,7 +108,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 -	*Pilot* lowers ramp with *Copilot* and ROV until just above water level.
 -	*Copilot* makes a final check to ensure vent plugs are in place and tight.
 -	*Copilot* issues a verbal “**Are you ready?**” to the *Pilot*.
-- *Pilot* verifies that the vehicle is **armed and set to "Manual" flight mode**. 
+- *Pilot* verifies that the vehicle is **armed and set to "Manual" flight mode**.
 -	*Copilot* gently sets the ROV in the water.
 - *Copilot* returns to cart and ascends the ramp to be slightly above the water line.
 -	*Pilot* motors the ROV on the surface northwest about 10 meters away from the ramp and ascent piling; visually confirm ROV flight controls are responding as expected.
@@ -108,7 +117,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
   -	20-40% gain works well for smaller movements when investigating and exploring.
   -	40-70% gain can be utilized to cover longer distances quickly.
   -	It is not recommended to run the thrusters at 100% as not only does the ROV become difficult to control but it may fry the electronics if used for extended periods.
--	(Optional) Operate the x2 downward and x2 forward lights as desired. 
+-	(Optional) Operate the x2 downward and x2 forward lights as desired.
 
 ## 7. Tether management
 
@@ -136,8 +145,8 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
 
 ## 8. Docking, undocking, and wirelessly charging the ROV
 
--	Align the ROV in front of the docking station. 
--	Place the target cross in the center of Cockpit. 
+-	Align the ROV in front of the docking station.
+-	Place the target cross in the center of Cockpit.
 -	Gently motor forward such that the ROV's "nose" enters the docking station port, then up the gain to at least 70% and pilot forward to ensure a full connection.
 -	Release the ROV via switching to Manual flight mode; observe the ROV affixed in place, i.e., it should jostle extensively but display a clear hold to the station (i.e., doesn’t float up/away).
 - On the ROV laptop, navigate to the WiBotic dashboard web interface at `http://10.59.165.222/#/overview`.
@@ -160,7 +169,7 @@ The instructions comprised here are a starting point -- we envision CEaL, IT/AV,
   - Pulling the ROV out of the water in "**Stabilize**" or "**Depth Hold**" flight modes will result in the thrusters continuing to fire in an attempt to minimize ROV movement (i.e., you will get splashed as the ROV is pulled out of the water!).
 - *Copilot* lifts ROV out of the water and gently sets on ramp.
 - *Pilot* **Disarms** vehicle and raises ramp.
-- *Copilot* observes the tether and makes sure it will raise properly as the ramp ascends. 
+- *Copilot* observes the tether and makes sure it will raise properly as the ramp ascends.
 - *Pilot* spools up and clears excess tether.
 - *Pilot* hands tether spool over to *Copilot* (again, verifying a grip on the spool before letting go).
 - *Pilot* dons PFD and joins the *Copilot* on ramp before retunging with ROV and spool.
