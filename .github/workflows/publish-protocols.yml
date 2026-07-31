@@ -1,0 +1,55 @@
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'CEaL_training_material/ROV_protocols.md'
+      - 'CEaL_training_material/photos/figs/**'
+      - 'CEaL_training_material/supplemental_materials/**'
+      - '.github/workflows/publish-protocols.yml'
+      - '.github/scripts/build-protocols-page.mjs'
+  workflow_dispatch:
+
+name: Publish ROV Protocols
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one Pages deployment at a time; let in-flight runs finish instead of racing.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Install build dependencies
+        run: npm install --no-save marked marked-gfm-heading-id
+
+      - name: Render ROV_protocols.md to _site/
+        run: node .github/scripts/build-protocols-page.mjs
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
