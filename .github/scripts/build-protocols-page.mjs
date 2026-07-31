@@ -41,7 +41,6 @@ const html = `<!doctype html>
   code { background: #8882; padding: .1em .35em; border-radius: 4px; }
   table { border-collapse: collapse; }
   td, th { border: 1px solid #8884; padding: .4em .7em; }
-  .source-note { font-size: .85rem; opacity: .7; margin-bottom: 2rem; }
 </style>
 </head>
 <body>
