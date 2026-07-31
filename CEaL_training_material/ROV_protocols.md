@@ -27,6 +27,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 - [Supplemental Figures](#supplemental-figures)
   - [Manually Charge ROV Battery](#manually-charge-rov-battery)
   - [Cockpit User Interface (UI)](#cockpit-user-interface-ui)
+  - [Piers 59 and 60 Underwater Map](#piers-59-and-60-underwater-map)
 
 ## Gear Checklist
 1. ROV Cart and contents
@@ -69,24 +70,24 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 
 - Check the status of the ROV battery with the voltage reader by connecting the white terminals to pins (-) - 4.
 <p align="center">
-  <img src="photos/voltage_reader.JPG" width=50% /> 
+  <img src="photos/figs/voltage_reader.JPG" width=50% /> 
 </p>
 
 - Pull out the battery enclosure lock (white cord with black ring poking out from top of battery enclosure).
 <p align="center">
-  <img src="photos/battery_enclosure_lock.JPG" width=50% /> 
+  <img src="photos/figs/battery_enclosure_lock.JPG" width=50% /> 
 </p>
   
 - Remove the blue vent plug from battery enclosure and **set it somewhere safe.**
   - Note: there are three blue vent plugs on the ROV -- make sure to remove only the middle one for the battery enclosure and avoid the upper one on the electronics tube and lower on the recharge box.
 <p align="center">
-  <img src="photos/vent_plug.png" width=98% /> 
+  <img src="photos/figs/vent_plug.png" width=98% /> 
 </p>
 
 - Use the small Blue Robotics enclosure key to gently open the ROV battery enclosure.
   - Find an opening groove between the end cap and battery enclosure, insert the middle protrusion of the key, then twist the key.
 <p align="center">
-  <img src="photos/open_battery_enclosure.png" width=98% /> 
+  <img src="photos/figs/open_battery_enclosure.png" width=98% /> 
 </p> 
 
 - Pull the rear end cap off.
@@ -98,13 +99,13 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
     - Remove and clean with dust cloth if necessary, then reapply silicone grease and replace.
 -	Connect the ROV battery: attach the ROV battery’s cell balancer connector **(white) first**, then connect the main connector (yellow). You should hear an initial chime when the battery is first connected, then a second chime approximately one minute later when the Pi and Navigator have fully booted. **The ROV will not be ready to fly until both series of chimes occur.**
 <p align="center">
-  <img src="photos/battery_connection.png" width=98% /> 
+  <img src="photos/figs/battery_connection.png" width=98% /> 
 </p> 
 
 - Gently replace the end cap; **the cap should rest flush against the tube**, with two solid black lines forming inside where the O-rings make contact with the tube.
 - Care is required when re-connecting the end cap -- ensure that all cables are out of the way and that the end cap can seat properly, then match the rectangular notch to fit the groove in the acrylic tube. Pause if you feel resistance when attempting to replace the end cap.
 <p align="center">
-  <img src="photos/end_cap_notch.png" width=50% /> 
+  <img src="photos/figs/end_cap_notch.png" width=50% /> 
 </p> 
 
 - **Reattach and tighten the vent plug.**
@@ -124,7 +125,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 
 -	**Double-check that the tether is securely clipped to ROV** (i.e., that the tether is plugged in and that its carabiner is attached –- should you have to manually pull in the ROV mid-flight, this clip will better protect the tether from damage).
 <p align="center">
-  <img src="photos/tether_clip.JPG" width=50% /> 
+  <img src="photos/figs/tether_clip.JPG" width=50% /> 
 </p>
 
 -	You will require x2 people familiar with ramp operations –- the *Pilot* and the *Copilot* -– both personnel are **required to wear a Personal Floatation Device** (PFD; found on the inside door of the closet adjacent to the dive ramp) when walking on the ramp.
@@ -139,12 +140,12 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
   - Ensure the black end piece of the connector (with the lock icons) is turned all the way left before aligning the white arrow with the white line on both the spool and FXTI ports.
   - You must insert the cable and rotate the top piece into the "lock" position, otherwise the cable will eject.
 <p align="center">
-  <img src="photos/FXTI-Spool_connection.png" width=98% /> 
+  <img src="photos/figs/FXTI-Spool_connection.png" width=98% /> 
 </p>
 
 -	**Ensure the connector is routed such that does not impede the tether**, i.e., ensure the tether can freely unspool.
 <p align="center">
-  <img src="photos/spool_config.JPG" width=50% /> 
+  <img src="photos/figs/spool_config.JPG" width=50% /> 
 </p>
 
 -	Connect the ethernet-USB cable to the FXTI box and to the flight laptop’s USB port.
@@ -154,7 +155,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 		- If the page does not load, wait a moment, then close the tab and try unplugging and re-plugging the FXTI USB wire.
 	- Verify ROV voltage and heartbeat from the BlueOS homepage by clicking the heart icon on the top right.
 <p align="center">
-  <img src="photos/check_heartbeat-voltage.png" width=98% /> 
+  <img src="photos/figs/check_heartbeat-voltage.png" width=98% /> 
 </p>
 
 -	Open desktop application "Cockpit", or, if the desktop version proves challenging, default to "Cockpit Lite" found on the BlueOS homepage (it will open in a browser tab).
@@ -163,7 +164,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 	-	Use the Xbox controller to arm the vehicle.
 
 <p align="center">
-  <img src="photos/arm-disarm_ROV_Cockpit.png" width=98% /> 
+  <img src="photos/figs/arm-disarm_ROV_Cockpit.png" width=98% /> 
 </p>
 
 -	- Verify control: check "pilot gain" (AKA thrust power; hereafter referred to as "gain") seen on the left side of the bottom ribbon (see [Cockpit UI](#cockpit-user-interface-ui)), adjust to `30%`.
@@ -317,7 +318,7 @@ If your error falls outside of the above, fret not! It's very likely someone els
 
 ### Flight Hazards
 
-- **Be vigilant while flying the ROV**. See below a few everyday hazards to keep watch for during flights:
+- **Be vigilant while flying the ROV**. See below a few everyday hazards to keep watch for during flights, and [download](supplemental_materials/underwater_Piers_map.xlsx) underwater map of Pier 59 and 60 or see [here](#piers-59-and-60-underwater-map):
   - **Ascent Piling**: An old, sunken pier piling about 10-15 feet north of the ramp (OTS divers will be familiar with this). Jagged splinters hang from the top of the piling that can trap the tether and/or tear it. Take note of which direction you navigate around it (preferably to the left) so as to avoid it during deployment and retrieval.
   - **Other Pier Pilings**: Observe all hard-bodied invertebrates residing on pier pilings from a moderate distance. Barnacles, mussels, tube worms, etc. all have the potential to damage the ROV and/or tether upon contact. Be especially mindful of the tether so it is not scraped against anything rugged or sharp.
   - **Ladder near end of Pier 59**: At higher tides, the ladder used to board the rowboat can become partially submerged. If flying close to the Pier 59 pilings heading west, the tether may potentially get stuck in the gap between the ladder and piling.
@@ -335,11 +336,15 @@ If your error falls outside of the above, fret not! It's very likely someone els
 
 ### Manually Charge ROV Battery
 <p align="center">
-  <img src="photos/battery_charge.png" width=98% /> 
+  <img src="photos/figs/battery_charge.png" width=98% /> 
 </p>
 
 ### Cockpit User Interface (UI)
 <p align="center">
-  <img src="photos/Cockpit_ui.png" width=98% /> 
+  <img src="photos/figs/Cockpit_ui.png" width=98% /> 
 </p>
 
+### Piers 59 and 60 Underwater Map
+<p align="center">
+  <img src="photos/figs/Piers_landmarks_and_hazards_map.png" width=98% /> 
+</p>
