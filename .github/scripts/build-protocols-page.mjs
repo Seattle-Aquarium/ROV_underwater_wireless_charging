@@ -45,11 +45,6 @@ const html = `<!doctype html>
 </style>
 </head>
 <body>
-<p class="source-note">
-  Auto-generated from
-  <a href="https://github.com/Seattle-Aquarium/ROV_underwater_wireless_charging/blob/main/CEaL_training_material/ROV_protocols.md" target="_blank" rel="noopener">ROV_protocols.md</a>
-  — edit the source file, not this page.
-</p>
 ${body}
 </body>
 </html>
