@@ -1,4 +1,4 @@
-# ROV underwater wireless charging 
+# ROV underwater wireless charging
 
 ## Overview 
 
@@ -45,3 +45,4 @@ The prototype UWCL deployment also includes a Blue Robotics [Low-Light HD USB Ca
   <img width="400" height="190" alt="light_GIF" src="https://github.com/user-attachments/assets/975f6728-a05e-42e7-9337-2a21ee659edf" />
 </div>
 
+**Aquarium ROV Pilots, see [flight instructions](https://seattle-aquarium.github.io/ROV_underwater_wireless_charging/)*
