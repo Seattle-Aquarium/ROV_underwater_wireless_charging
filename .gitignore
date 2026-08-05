@@ -10,3 +10,8 @@ photo_archive/
 .Rhistory
 .RData
 .Ruserdata
+
+# -----------------------------------------------------------------------------
+# Printable ROV protocols doc
+# -----------------------------------------------------------------------------
+.ROV_protocols_printable.docx
