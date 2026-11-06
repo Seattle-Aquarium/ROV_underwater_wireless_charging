@@ -59,7 +59,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 -	Move cart to the dive ramp, positioned such that the cart is just to the right of the end of the ramp.
 -	Plug in the cart to the power outlet.
 -	Plug in the HDMI cord between the TV and ROV laptop.
-- Plug in ethernet cord between ROV laptop and lower ethernet port (located in gray box to the right of the power outlet)
+- Plug in ethernet cord between ROV laptop and lower ethernet port (located in gray box to the right of the power outlet).
 -	Plug the ROV laptop into the cart's power strip to charge while in use.
 -	Turn on and sign into the laptop, verify that TV extends computer screen.
 
