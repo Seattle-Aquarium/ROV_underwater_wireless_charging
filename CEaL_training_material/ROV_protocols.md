@@ -1,4 +1,4 @@
-# ROV Protocols
+# ROV Flight Protocols
 
 **Location:** Seattle Aquarium, Pier 59
 
@@ -30,13 +30,14 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
   - [Piers 59 and 60 Underwater Map](#piers-59-and-60-underwater-map)
 
 ## Gear Checklist
-1. ROV Cart and contents
+1. ROV Cart
+2. Orange Pelican Case
 3. ROV Laptop
 4. AB1 Key
 5. Radio
 6. Cell phone
 7. Personal Flotation Device (PFD; stored in closet opposite ramp)
-8. Pop-up tent
+8. Pop-up tent + sandbags (optional unless direct summer sun or rainy conditions)
 
 ## 1. Assessing topside and underwater conditions
 
@@ -44,16 +45,11 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 -	**Do not operate on a tide lower than 1 foot** (the ramp will be too steep / can’t reach the sea surface)
 -	**Do not operate with winds greater than 15 knots** out of the north (blowing into you on flight deck).
 	-	Winds out of the south are largely blocked by Pier 59, though you may have water movement / chop.
--	Check water conditions via docking station camera for visibility at-depth
+-	(Optional) Check water conditions via docking station camera for visibility at-depth
 	-	http://10.59.165.221/extensionv2/cockpitlite/#/
 	-	**Do not fly if you have less than 1m of visibility**
 -	Once you determine that conditions are good to fly, call Seattle Harbor Patrol at **(206)-684-4072** to notify them of your plans.
     -	"Hello, this is [insert name] with the Seattle Aquarium. We will be operating our Remotely Operated Vehicle over the side of the Aquarium from [time] to [time] today. We will operate between Piers 59 and 62 and do not intend to go past the end of Pier 59."
-
-### Notes
--   There are a variety of ways to obtain information about the tide and wind. Two options include:
-	-	Tides app on IOS
-	-	WindFinder app on IOS
 
 ## 2. Set up topside flight area
 
@@ -62,8 +58,9 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 -	Descend the ramp slightly, then ascend the ramp slightly to verify functioning.
 -	Move cart to the dive ramp, positioned such that the cart is just to the right of the end of the ramp.
 -	Plug in the cart to the power outlet.
--	Plug in the HDMI cord to the TV and ROV laptop.
--	Plug in the ROV laptop to the power strip within the cart.
+-	Plug in the HDMI cord between the TV and ROV laptop.
+- Plug in ethernet cord between ROV laptop and lower ethernet port (located in gray box to the right of the power outlet)
+-	Plug the ROV laptop into the cart's power strip to charge while in use.
 -	Turn on and sign into the laptop, verify that TV extends computer screen.
 
 ## 3. Power ROV
@@ -93,8 +90,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 - Pull the rear end cap off.
 - **Check the status of silicone lubrication on the two rear endcap O-rings.**
   -	If they are dry and/or if removal of the end cap is challenging, you can either:
-    -	Remove the O-rings with the O-ring pick, clean them with a dust cloth, apply silicone grease, reapply the O-rings, or 
-    -	Apply a small amount of silicone grease to the outside of the x2 O-rings
+    -	Remove the O-rings with the O-ring pick, clean them with a dust cloth, apply silicone grease, reapply the O-rings, or apply a small amount of silicone grease to the outside of the x2 O-rings
   - Remove any hairs or particles from the O-rings as even small debris can compromise the seal and flood the battery enclosure.
     - Remove and clean with dust cloth if necessary, then reapply silicone grease and replace.
 -	Connect the ROV battery: attach the ROV battery’s cell balancer connector **(white) first**, then connect the main connector (yellow). You should hear an initial chime when the battery is first connected, then a second chime approximately one minute later when the Pi and Navigator have fully booted. **The ROV will not be ready to fly until both series of chimes occur.**
@@ -109,7 +105,7 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 </p> 
 
 - **Reattach and tighten the vent plug.**
-- Replace the battery enclosure lock; **it will not go back into place unless the end cap has been replaced properly.**
+- Replace the battery enclosure lock; **the lock will easily slide in if you replaced the end cap properly but will resist if not.**
 
 ### Notes
 - Should you need to recharge the battery on land, follow these steps (see [Manually Charge ROV Battery](#manually-charge-rov-battery)):
@@ -128,7 +124,12 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
   <img src="photos/figs/tether_clip.JPG" width=50% /> 
 </p>
 
--	You will require x2 people familiar with ramp operations –- the *Pilot* and the *Copilot* -– both personnel are **required to wear a Personal Floatation Device** (PFD; found on the inside door of the closet adjacent to the dive ramp) when walking on the ramp.
+-	You will require x2 people familiar with ramp operations –- the *Pilot* and the *Copilot* -– both personnel are **required to wear a Personal Floatation Device** (PFD; found on the inside door of the closet opposite the dive ramp) when walking on the ramp.
+- Designate an individual to attach the dive buoy (found in same closet as PFDs) to the railing at end of the ramp, then return to the ROV.
+<p align="center">
+  <img src="photos/figs/dive_buoy.png" width=75% /> 
+</p>
+
 -	With the *Pilot* carrying the ROV and *Copilot* carrying the tether spool both walk out and place their items at the end of the ramp.
 -	The *Copilot* stays at the end of the ramp; the *Pilot* returns to the cart, closing but not locking the ramp (keep the unlocked lock threaded in its spot so as not to lose it).
 -	The *Copilot* hands the tether spool to the *Pilot* from the ramp, where, **upon handoff, the *Pilot* will verify their grip on the spool via a verbal “Got it!” before the *Copilot* releases their grip.**
@@ -159,15 +160,15 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 </p>
 
 -	Open desktop application "Cockpit", or, if the desktop version proves challenging, default to "Cockpit Lite" found on the BlueOS homepage (it will open in a browser tab).
-	-	Select "Aquarium" from the profile prompt.
-	-	Verify camera feed is visible on-screen.
-	-	Use the Xbox controller to arm the vehicle.
+	-	If prompted, select "Aquarium" from the profile prompt.
+	-	Verify both downward and forward camera feeds are visible on-screen.
+	-	Use the Xbox controller to arm the vehicle (see control map).
 
 <p align="center">
   <img src="photos/figs/arm-disarm_ROV_Cockpit.png" width=98% /> 
 </p>
 
--	- Verify control: check "pilot gain" (AKA thrust power; hereafter referred to as "gain") seen on the left side of the bottom ribbon (see [Cockpit UI](#cockpit-user-interface-ui)), adjust to `30%`.
+-	- Verify control: check "pilot gain" (AKA thrust power; hereafter referred to as "gain") seen on the left side of the bottom ribbon (see [Cockpit UI](#cockpit-user-interface-ui)).
 	- Briefly activate thrusters.
 	- (Optional) Cycle lights up and down.
 -	The vehicle is now ready to deploy.
@@ -196,8 +197,13 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
   - where the ROV is;
   - where the *Pilot* wants to go;
   - when the *Copilot* should anticipate the need to spool out or recover tether slack.
+<p align="center">
+  <img src="photos/figs/tether_management.png" width=98% /> 
+</p>
+
 - The *Copilot* should take the lead on interacting with guests when the flight deck becomes crowded so the *Pilot* may focus on flying.
   - In stressful situations, your primary focus should be managing the ROV -- inform guests as such and/or call in back up to assist with crowd control.
+  - Optionally, recruit a volunteer to fulfil this role/assist with general tasks, such as tether management.
 - If the ROV’s forward movement is sluggish, or it cannot move forward, you may need to let out tether.
 - Be mindful that the tether can be repositioned by wind, current, and other water movement.
 - If the tether gets wrapped around something, you can likely undo the wrap using the ROV and the *Copilot's* position on land.
@@ -214,12 +220,12 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 
 ## 8. Docking, undocking, and wirelessly charging the ROV
 
--	With the ROV camera facing downward such that the ROV's "nose" is somewhat within view, align the ROV in front of the docking station.
--	Place the target cross in the center of Cockpit.
+-	With the ROV camera angled slightly downward such that the ROV's "nose" is somewhat within view, align the ROV in front of the docking station.
+-	Position the target cross on the docking station in the center of your screen.
 -	Gently motor forward such that the ROV's "nose" enters the docking station port (the black hole with bristles lining it).
--	With the ROV positioned on-center to the station, up the gain to at least 70% and pilot forward to ensure a full connection.
+-	With the ROV positioned on-center to the station, up the gain to at least 70% and fully push the joystick forward to ensure a full connection.
 	-	Note: This will not look pretty, but don't worry!
--	Switch the ROV into Manual flight mode; observe the ROV affixed in place -- it may jostle but display a clear hold to the station (i.e., doesn’t float up/away).
+-	Switch the ROV into Manual flight mode; observe the ROV affixed in place -- it may jostle but display a clear hold to the station (i.e., doesn’t float up/out).
 - On the ROV laptop, navigate to the WiBotic dashboard web interface at `http://10.59.165.222/#/overview`.
 - Turn the "Transmitter" and "Charger" toggles on.
   - You should observe charging via the on-screen metrics and visualizations.
@@ -228,14 +234,12 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 
 ## 9. Retrieve ROV
 
-- *Pilot* fully pivots ROV camera to up position, locates tether on screen, and follows back to ramp.
-- *Pilot* has the ROV at the surface clear of the ramp and is ready to land.
-- *Copilot* dons PFD.
-- *Copilot* lowers ramp to touching water level.
+- *Pilot* fully angles the ROV camera to the up position, turns to locate the tether on screen, and follows back to ramp.
+- *Pilot* positions the ROV at the surface clear of the ramp and maintains position.
+- *Copilot* dons PFD and lowers ramp to touching water level.
 - *Copilot* unlocks gate, hangs lock in its hold, and descends along the ramp.
-- *Pilot* approaches ramp with the ROV.
-- *Pilot* switches to **Manual** flight mode.
-- *Pilot* makes final approach to the ramp and turns the ROV to the side for easy removal.
+- *Pilot* approaches ramp with the ROV, then switches to Manual flight mode.
+- *Pilot* makes final approach to the ramp and turns the ROV to the side for easy removal via the handles on the vehicle.
 - *Copilot*, with one hand on the rail, puts the other hand on the ROV and issues a verbal “**Got it!**” to the *Pilot*.
 - *Pilot* then responds “**Manual!**” to verify the ROV is ready to retrieve.
   - Pulling the ROV out of the water in "Stabilize" or "Depth Hold" flight modes will result in the thrusters continuing to fire in an attempt to minimize ROV movement (i.e., you will get splashed as the ROV is pulled out of the water!).
@@ -244,17 +248,18 @@ Please, inform us of any errors, confusion, suggestions, etc. We encourage colla
 - *Copilot* observes the tether and makes sure it will raise properly as the ramp ascends.
 - *Pilot* spools up and clears excess tether.
 - On the BlueOS webpage, *Pilot* navigates to the bottom of the left-hand side bar and clicks the power icon.
-- *Pilot* selects "Power Off" and waits ~30 seconds for the message "System is off. You may now disconnect."
+- *Pilot* selects "Power Off" and waits ~30 seconds for the message "System is off. You can disconnect power now."
 - *Pilot* disconnects FXTI-Spool Connector from spool, then hands spool over to *Copilot* (again, verifying a grip before letting go).
 - *Pilot* dons PFD and joins the *Copilot* on ramp before returning with ROV and spool.
 
 ## 10. Post-flight care
 
-- Lower the TV and take the ROV and tether spool to the back of Pier 59 and spray thoroughly with freshwater from the hose.
+- Take the ROV and tether spool to the back of Pier 59 and spray thoroughly with freshwater from the hose.
   - Focus particularly on:
-    - thrusters;
-    - areas with wire connections;
-    - any exposed metal.
+    - thrusters
+    - areas with wire connections
+    - any exposed metal
+- Be mindful of items left on or near the cart while away, especially the Xbox controller, laptop, and personal items. Alternatively, bring the cart to the back deck with you.
 - Once the ROV has been rinsed, use a microfiber towel to remove excess water from the battery enclosure area.
 - Power down the ROV: remove the enclosure lock and vent plug from the battery enclosure and store somewhere safe, open the enclosure using the key, and disconnect the battery wires.
   - **Be careful not to tug the connectors apart by the wires themselves -- pull only from the white and yellow terminal pieces.**
